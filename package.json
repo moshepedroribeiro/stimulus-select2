@@ -1,0 +1,31 @@
+{
+  "name": "stimulus-select2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "dist/index.modern.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "stimulus",
+    "stimulus-components",
+    "hotwire"
+  ],
+  "type": "commonjs",
+  "peerDependencies": {
+    "@hotwired/stimulus": "^3.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^7.1.0",
+    "@rollup/plugin-commonjs": "^29.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "rollup": "^4.62.2"
+  },
+  "author": "Moisés Ribeiro",
+  "license": "MIT"
+}
