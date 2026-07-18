@@ -16,7 +16,7 @@
     "stimulus-components",
     "hotwire"
   ],
-  "type": "commonjs",
+  "type": "module",
   "peerDependencies": {
     "@hotwired/stimulus": "^3.0.0"
   },
